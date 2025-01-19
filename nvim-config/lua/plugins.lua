@@ -10,7 +10,7 @@ return {
     config = function()
       require("catppuccin").setup({
         flavour = "macchiato", -- Set the flavor to Macchiato
-        transparent_background = false, -- Set to true if you want a transparent background
+        transparent_background = true, -- Enable transparent background
         integrations = {
           cmp = true,
           gitsigns = true,
